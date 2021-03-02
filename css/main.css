@@ -820,7 +820,8 @@ main .site-header .logo a {
 	width: 26px;
 	height: 26px;
 	line-height: 28px;
-	background-image: url(".../images/slides/webdesign@2x.png");
+	background-image: url(".../images/webdesign@2x.png");
+	background-blend-mode: overlay;
 	left: 30px;
 	background-size: contain;
 }
@@ -855,7 +856,7 @@ main .site-header .logo a {
 
 	.modal-toggles li a::before {
 		content: none;
-		postion: static;
+		position: static;
 	}
 
 }
@@ -1281,7 +1282,7 @@ main .site-header .logo a {
 	color: transparent;
 	width: 70px;
 	height: 56px;
-	background: url("../images/users@2x.png") no-repeat;
+	background: url("../images/webdesign@2x.png") no-repeat;
 	background-size: contain;
 }
 
