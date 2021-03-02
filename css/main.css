@@ -820,7 +820,7 @@ main .site-header .logo a {
 	width: 26px;
 	height: 26px;
 	line-height: 28px;
-	
+	background-image: url(".../images/slides/webdesign@2x.png");
 	left: 30px;
 	background-size: contain;
 }
@@ -871,7 +871,23 @@ main .site-header .logo a {
 /* 06. =modals
 /* =================================================================== */
 #mod-about,
-
+#mod-location {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 100%;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	zoom: 1;
+}
 
 #mod-about {
 	-moz-transform: translateX(-100%);
