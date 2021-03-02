@@ -113,7 +113,7 @@
 	}, 100);
 
 
-	var mailChimpURL = ''
+	var mailChimpURL = 'https://www.stephenomics.com/_/xkAnGlI5m_TNOjYeRjb8MC68TvKwqpUDBxGjdO0zHzk/https/mc.us19.list-manage.com/signup-form/subscribe?u=4bccc41068561db751c798750&id=003416e1f0'
 
 
 	$('#mc-form').ajaxChimp({
