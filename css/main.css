@@ -1233,6 +1233,118 @@ main .site-header .logo a {
 }
 
 
+
+
+
+
+ /* Location Modal */
+ #mod-location {
+	z-index: 999991;
+}
+
+#mod-location::after {
+	content: "";
+	display: block;
+	height: 120px;
+}
+
+#mod-location .row {
+	max-width: 750px;
+}
+
+/* location header */
+.location-header {
+	text-align: center;
+	margin-top: 5%;
+}
+
+.location-header h1 {
+	font: 38px/1.2em "montserrat-bold", sans-serif;
+	color: #fbca08;
+}
+
+.location-header .icon-wrap {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 36px 0;
+	padding: 0;
+}
+
+.location-header .icon-wrap i {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	width: 70px;
+	height: 56px;
+	background: url("../images/users@2x.png") no-repeat;
+	background-size: contain;
+}
+
+@media only screen and (max-width:900px) {
+	.location-header {
+		margin-top: 7%;
+	}
+
+	.location-header h1 {
+		font: 35px/1.2em "montserrat-bold", sans-serif;
+	}
+
+	.location-header .icon-wrap i {
+		width: 61px;
+		height: 50px;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	.location-header {
+		margin-top: 10%;
+	}
+
+	.location-header h1 {
+		font: 32px/1.2em "montserrat-bold", sans-serif;
+	}
+
+	.location-header .icon-wrap {
+		margin: 0 0 24px 0;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.location-header {
+		margin-top: 60px;
+	}
+
+}
+
+@media only screen and (max-width:500px) {
+	.location-header {
+		margin-top: 54px;
+	}
+
+	.location-header h1 {
+		font: 30px/1.2em "montserrat-bold", sans-serif;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	.location-header h1 {
+		font: 28px/1.2em "montserrat-bold", sans-serif;
+	}
+
+	.location-header .icon-wrap i {
+		width: 56px;
+		height: 46px;
+	}
+
+}
 .location-content {
 	color: white;
 }
