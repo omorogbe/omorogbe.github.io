@@ -1282,7 +1282,7 @@ main .site-header .logo a {
 	color: transparent;
 	width: 70px;
 	height: 56px;
-	background: url("../images/webdesign@2x.png") no-repeat;
+	background: url("../images/webdesign@2x.png");
 	background-size: contain;
 }
 
