@@ -38,7 +38,6 @@ body {
 	-moz-background-size: cover !important;
 	background-size: cover !important;
 } */
-html {
 
 
 
@@ -82,7 +81,7 @@ html {
 	background: rgba(0,0,0,.75);
 	padding: 1em;
   }
-}
+
 
 body {
 	font: 15px/30px "montserrat-regular", sans-serif;
