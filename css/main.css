@@ -72,12 +72,12 @@ a:focus {
 	border-bottom: 16px solid #fbca08;
 	border-left: 16px solid white;
 	text-align: center;
-	position: relative;
+	/* position: relative;
 	transform: translate(-50%, -50%);
 	top: auto;
 	
 	width: 120px;
-	height: 120px;
+	height: 120px; */
 	-webkit-animation: spin 2s linear infinite;
 	animation: spin 2s linear infinite;
   }
