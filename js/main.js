@@ -113,7 +113,7 @@
 	}, 100);
 
 
-	var mailChimpURL = 'https://www.stephenomics.com/_/xkAnGlI5m_TNOjYeRjb8MC68TvKwqpUDBxGjdO0zHzk/https/mc.us19.list-manage.com/signup-form/subscribe?u=4bccc41068561db751c798750&id=003416e1f0'
+	var mailChimpURL = 'us19-ca378fbdaa-b8379a12bc@inbound.mailchimp.com'
 
 
 	$('#mc-form').ajaxChimp({
