@@ -32,52 +32,12 @@ body {
 	height: 100%;
 }
 
-/* html {
+html {
 	background: #161415 url(../images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
-} */
-
-.background {
-	animation: inherit;
-  }
-  .background {
-	color: hsl(324, 70%, 45%);
-	animation: wheelHueColor 20s infinite;
-	background-color: currentColor;
-  }
-  @supports (background-blend-mode: overlay) {
-	.background {
-	  background-image: linear-gradient(45deg, white 10%, black 90%);
-	  background-blend-mode: overlay;
-	}
-  }
-  @keyframes wheelHueColor {
-	from, to { color: hsl(324, 70%, 45%); }
-	10%      { color: hsl(360, 65%, 45%); }
-	20%      { color: hsl( 36, 80%, 45%); }
-	30%      { color: hsl( 72, 75%, 35%); }
-	40%      { color: hsl(108, 65%, 35%); }
-	50%      { color: hsl(144, 75%, 35%); }
-	60%      { color: hsl(180, 75%, 35%); }
-	70%      { color: hsl(216, 60%, 45%); }
-	80%      { color: hsl(252, 65%, 50%); }
-	90%      { color: hsl(288, 60%, 40%); }
-  }
-  
-  
-  /* misc */
-  * { margin: 0; padding: 0; }
-  .background {
-	min-height: 100vh;
-	display: flex;
-  }
-  .text {
-	margin: auto;
-	background: rgba(0,0,0,.75);
-	padding: 1em;
-  }
+}
 
 
 body {
@@ -114,7 +74,6 @@ a:focus {
 	border-left: 16px solid white;
 	text-align: center;
 
-	position: absolute;
 	left: 50%;
 	top: 50%;
 	width: 80px;
@@ -803,131 +762,7 @@ main .site-header .logo a {
 
 }
 
-/* mailchimp form
------------------------------------------- */
-#mc-signup {
-	clear: both;
-	width: 75%;
-	margin: 6px auto 30px;
-}
 
-#mc-signup input {
-	display: inline-block;
-	float: left;
-	border: none;
-	font-size: 15px;
-	font-family: "montserrat-bold", sans-serif;
-}
-
-#mc-signup input[type="email"] {
-	height: 54px;
-	color: rgba(0, 0, 0, 0.7);
-	line-height: 30px;
-	padding: 12px 15px 12px 20px;
-	border-radius: 3px 0 0 3px;
-	background: rgba(255, 255, 255, 0.25);
-	width: 70%;
-}
-
-#mc-signup input[type="submit"] {
-	font-size: 12px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 30px;
-	height: 54px;
-	padding: 12px 25px 12px 25px;
-	border-radius: 0 3px 3px 0;
-	background: white;
-	width: 30%;
-	text-align: center;
-	color: black;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-
-#mc-signup input[type="submit"]:hover {
-	background: #fbca08;
-}
-
-#mc-signup label {
-	clear: both;
-	display: block;
-	width: 100%;
-	min-height: 30px;
-	font-family: "montserrat-regular", sans-serif;
-	color: white;
-}
-
-#mc-signup label i {
-	color: #fbca08;
-	margin-right: 5px;
-}
-
-@media only screen and (max-width:900px) {
-	#mc-signup {
-		width: 70%;
-	}
-
-	#mc-signup input[type="email"] {
-		width: 60%;
-	}
-
-	#mc-signup input[type="submit"] {
-		width: 40%;
-	}
-
-}
-
-@media only screen and (max-width:768px) {
-	#mc-signup {
-		width: 80%;
-		margin-bottom: 30px;
-	}
-
-	#mc-signup input[type="email"] {
-		width: 55%;
-	}
-
-	#mc-signup input[type="submit"] {
-		width: 45%;
-	}
-
-}
-
-@media only screen and (max-width:600px) {
-	#mc-signup {
-		width: 100%;
-		margin-bottom: 24px;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-
-	#mc-signup input[type="email"] {
-		width: 100%;
-		float: none;
-		margin-bottom: 0;
-		border-radius: 3px 3px 0 0;
-		text-align: center;
-	}
-
-	#mc-signup input[type="submit"] {
-		width: 100%;
-		float: none;
-		border-radius: 0 0 3px 3px;
-	}
-
-}
-
-@media only screen and (max-width:400px) {
-	#mc-signup {
-		padding-left: 0;
-		padding-right: 0;
-	}
-
-}
 
 /* modal toggles
 ------------------------------------------ */
@@ -982,7 +817,7 @@ main .site-header .logo a {
 	width: 26px;
 	height: 26px;
 	line-height: 28px;
-	background-image: url("../images/marker.png");
+	
 	left: 30px;
 	background-size: contain;
 }
@@ -1033,23 +868,7 @@ main .site-header .logo a {
 /* 06. =modals
 /* =================================================================== */
 #mod-about,
-#mod-map {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	min-height: 100%;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-webkit-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-	filter: alpha(opacity=0);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	opacity: 0;
-	zoom: 1;
-}
+
 
 #mod-about {
 	-moz-transform: translateX(-100%);
@@ -1059,7 +878,7 @@ main .site-header .logo a {
 	transform: translateX(-100%);
 }
 
-#mod-map {
+#mod-location {
 	-moz-transform: translateX(100%);
 	-o-transform: translateX(100%);
 	-webkit-transform: translateX(100%);
@@ -1067,7 +886,8 @@ main .site-header .logo a {
 	transform: translateX(100%);
 }
 
-#mod-map.is-visible,
+
+#mod-location.is-visible,
 #mod-about.is-visible {
 	-moz-transform: translateX(0);
 	-o-transform: translateX(0);
