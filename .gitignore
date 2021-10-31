@@ -11,3 +11,7 @@ _drafts
 *.gem
 Gemfile
 Gemfile.lock
+docker-compose.yml
+*.png
+*.webmanifest
+*.zip
